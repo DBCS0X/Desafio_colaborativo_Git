@@ -1,0 +1,22 @@
+import math
+
+print('1. soma')
+print('2. subtração')
+print('3. sair')
+
+cal = int(input("digite uma opção"))
+
+if cal == 1:
+    n1 = float(input('digite um numero'))
+    n2 = float(input('digite um numero'))
+    r = n1 + n2
+    print('a soma é de {:.2f}'.format(r))
+elif cal == 2:
+    n1 = float(input('digite um numero'))
+    n2 = float(input('digite um numero'))
+    r = n1 - n2
+    print('a subtração é de {:.2f}.format(r)')
+
+elif cal == 3:
+    print('até logo')
+    sys.exit()
